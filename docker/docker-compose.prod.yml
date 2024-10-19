@@ -63,3 +63,5 @@ volumes:
   django-locale:
   caddy-config:
   caddy-data:
+  django-static:  # Bu satırı ekleyin
+
