@@ -29,7 +29,7 @@ services:
   web:
     <<: &web
       # Image for production:
-      image: "registry.gitlab.com/AIKU/kuika-django:latest"
+      image: "registry.gitlab.com/ai-ku/kuika-django:latest"
       build:
         target: production_build
         args:
